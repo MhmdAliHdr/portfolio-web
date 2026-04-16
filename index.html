@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Amby's Portfolio</title>
+    <link rel="stylesheet" href="styles.css"/>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  </head>
+  <body>
+    <main>
+      <div class = "container" class = "animate_animated animate__fadeIn">
+      <div class = "small-div" id = "about-me">
+        <img src = "./graphics/me.png"/>
+        <img src = "./graphics/me_real.png"/>
+        <h1>about me</h1>
+        <div class = "vertical-menu-about-me">
+        <p>Welcome!</p>
+        <p>I'm amby, a computer scientist who strongly believes combining technology with a little bit of color could make the world a better place.</p><br\>
+        <p>My passions include: creating engaging websites, writing niche but useful programs, and getting artsy in my personal time </p>
+        </div>
+      </div>
+      <div class = "big-div" id = "projects">
+        <h1>projects</h1>
+        <div class = "horizontal-menu">
+        <div class="project">
+          <div class = "project-title">
+            Student Sleep Quality Predictor
+          </div>
+          <div class = "project-content">
+            <p>A project that showcases training a KNN model on a <br/>dataset of student sleep quality features/labels</p>
+            <p>The model can predict values based on entered features.</p>
+            <a href="https://github.com/MhmdAliHdr/predict_sleep_quality">GitHub</a>
+            <a href="https://predict-sleep-quality.onrender.com/">Render Showcase</a>
+          </div>
+        </div>
+        </div>
+      </div>
+      <div class = "small-div" id = "blog">
+        <h1>blog</h1>
+        <div class = "vertical-menu">
+        </div>
+      </div>
+      <div class = "big-div" id = "contact">
+        <h1>contact me</h1>
+        <form action="mailto:amby.haidar.dev@gmail.com">
+          <label for="subject">subject</label><br/>
+          <input name="subject" type="text"/><br/>
+          <label for="email">email</label><br/>
+          <input name="email" type="email"/><br/>
+          <label for="content">content</label><br/>
+          <textarea name="content">Enter your message</textarea><br/>
+          <input type="submit"/>
+        </form>
+    </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
